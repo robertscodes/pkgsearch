@@ -1,4 +1,4 @@
-pkgbase = pkgsearch-helper
+pkgbase = pkgsearch
 	pkgdesc = Helper script for robertscodes/pkgsearch
 	pkgver = 20250731
 	pkgrel = 1
@@ -8,12 +8,12 @@ pkgbase = pkgsearch-helper
 	makedepends = gnupg
 	makedepends = wget
 	makedepends = bash
-	source = pkgsearch-helper.sh
-	source = pkgsearch-helper.sh.sig
+	source = pkgsearch
+	source = pkgsearch.sig
 	validpgpkeys = 9033C06BC9A1FA15FA9FE88F090603E55AA049C4
 	md5sums = e9a7b5ada2d02d27de3f8b343e02861b
 	md5sums = bf7541d260895df0a38ea60907797f59
 	sha256sums = 56d21786b06ba91a52a28c2e5325a6a10ba04212d4e24f538b0beb6da7619d2d
 	sha256sums = 001e914c828b4caf9d725b37275d2e158917e9b7442ac2f405d41bfce24b5966
 
-pkgname = pkgsearch-helper
+pkgname = pkgsearch
